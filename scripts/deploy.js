@@ -3,9 +3,9 @@ const hre = require("hardhat");
 async function main() {
   const EtherFund = await hre.ethers.getContractFactory("EtherFund");
   const etherFund = await EtherFund.deploy();
-  await etherFund.deployed();
+  await etherFund.waitForDeployment();
 
-  console.log(`EtherFund deployed to: ${etherFund.address}`);
+  console.log(`EtherFund deployed to: ${etherFund.target}`);
 }
 
 main().catch((error) => {
