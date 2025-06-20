@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# 🚀 Ether Fund
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A simple Ethereum smart contract to collect and manage pooled ETH.
 
-Try running some of the following tasks:
+## 🧱 Stack
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- Solidity
+- Hardhat
+- Ethers.js
+
+## 📦 Setup
+
+npm install
+npx hardhat compile
