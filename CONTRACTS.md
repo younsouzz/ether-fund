@@ -18,8 +18,14 @@ Purpose: example of decentralized governance and collective management.
 
 ---
 
+## TimeLock.sol  
+A contract that locks ETH until a specific future timestamp. Only the owner can withdraw after the unlock time.  
+Purpose: demonstrate time-based fund locking and simple access control.
+
+---
+
 ### Usage
 
 - All contracts are written in Solidity 0.8.19.  
-- To compile: \`npx hardhat compile\`  
-- To deploy, use scripts in the \`scripts/\` folder (to be completed per contract).  
+- To compile: `npx hardhat compile`  
+- To deploy, use scripts in the `scripts/` folder (to be completed per contract).
